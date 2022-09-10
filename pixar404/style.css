@@ -1,19 +1,53 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .fixed-top {
-    position: fixed;
-    padding: 8px 40px;
+    padding: 15px 40px;
     height: 50px;
     width: 100%;
     margin: 0;
 }
-#menu-icon, img {
-    width: 15px;
-    height: 15px;
-    position: right;
+#menu-icon img {
+    width: 18px;
+    height: 24px;
+    float: right;
+    width: 22px;
 }
-#pixar-logo, img {
+#pixar-logo img {
    height: 16px;
    width: 80px;
+   float: left;
+   width: auto;
+}
+.clr {
+    clear: both;
+}
+.content-box {
+    padding: 80px 48px; 
+}
+h1 {
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 34px;
+    padding-left: 20px;
+    line-height: 1.6em;
+    float: right;
+    width: 75%;
+}
+p {
+    text-align: center;  
+    margin: 22px 0px;
+    line-height: 2em;
+    float: right;
+    width: 75%;
+}
+aside img{
+    float: left;
+    width: 25%;
+    width: 240px;
+    height: 320px;
+    position: absolute;
 }
