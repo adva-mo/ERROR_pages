@@ -1,17 +1,21 @@
+@font-face {
+    font-family: brandon;
+    src: url(https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?subset_id=2&fvd=n4&v=3);
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+body {
+    font-family: brandon;
+}
 .fixed-top {
     padding: 15px 40px;
     height: 50px;
-    margin: 0;
     position: fixed;
     width: 100%;
     top: 0;
-    left: 0;
 }
 #menu-icon img {
     width: 18px;
